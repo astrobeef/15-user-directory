@@ -1,5 +1,5 @@
 import React from "react";
-import UserCard from "../UserCard/index.js";
+import UserCardMod from "../UserCardMod/index.js";
 
 function Table(props) {
 
@@ -19,7 +19,7 @@ function Table(props) {
                 </li>
 
                 {users.map(user => {
-                    return (<UserCard user = {user}  key={Math.random()}></UserCard>);
+                    return (<UserCardMod user = {user}  key={Math.random()}></UserCardMod>);
                 })}
             </ul>
         </div>
