@@ -37,5 +37,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/astrobeef/14-PWA-Budget-Tracker.git"
+  },
+  "engines": {
+    "node": "12.13.0"
   }
 }
