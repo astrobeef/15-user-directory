@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Title from '../../components/Title';
-import Table from '../../components/Table';
+import Title from '../../components/Title/index.js';
+import Table from '../../components/Table/index.js';
 import API from '../../utils/API';
 import trimTo from '../../utils/trimTo';
 
